@@ -1,0 +1,62 @@
+.dash{
+    text-align: center;
+    display: block;
+    margin: auto;
+    min-width: 15rem;
+    max-width: 45rem;
+    /* margin-top: 5rem; */
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.dash_c1, .dash_c2, .dash_c3, .dash_c4{
+    
+    border-radius: 1rem;
+}
+
+.dash_c1, .dash_c4{
+    background-color: rgb(152, 228, 121);
+}
+.dash_c3{
+    background-color: rgb(181, 223, 242);
+}
+.dash_c2{
+    background-color: rgb(224, 224, 175);
+}
+
+
+.g_1,.g_2,.g_3,.g_4,.g_5{
+    background-color: rgb(202, 202, 234);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+
+.dash_s{
+    background-color: rgb(65, 78, 218);
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+
+.p1_box{
+    width: 25rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
